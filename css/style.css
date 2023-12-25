@@ -253,3 +253,29 @@ ol {
   padding: 1.6rem 3rem;
   border-radius: 0.5rem;
 }
+/* Categories */
+.categories {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 2rem;
+}
+.category {
+  text-align: center;
+  padding: 3rem;
+  border: 1px solid #f5f5f5;
+  transition: all 0.5s;
+  color: #000;
+  cursor: pointer;
+}
+.category:hover {
+  background: #db4444;
+  color: #fff;
+}
+.category_icon {
+  width: 3.5rem;
+  height: auto;
+}
+.category:hover .category_icon {
+  fill: #fff;
+}
