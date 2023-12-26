@@ -10,6 +10,8 @@
     />
     <!-- custom css  -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Home - Exclusive E-Commerce website</title>
   </head>
   <body>
@@ -26,7 +28,7 @@
     </div>
     <!-- top nav end  -->
     <!-- nav start  -->
-    <div class="nav">
+    <nav class="nav">
       <div class="container nav_container">
         <a href="#" class="nav_logo">EXCLUSIVE</a>
         <ul class="nav_list">
@@ -90,8 +92,46 @@
             </svg>
           </a>
         </div>
+        <span class="hamburger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </span>
       </div>
-    </div>
+    </nav>
+    <!-- mobile nav  -->
+    <nav class="mobile_nav mobile_nav_hide">
+      <div class="container mobile_nav_container">
+        <ul class="mobile_nav_list">
+          <li class="mobile_nav_item">
+            <a href="#" class="mobile_nav_link">Home</a>
+          </li>
+          <li class="mobile_nav_item">
+            <a href="#" class="mobile_nav_link">About</a>
+          </li>
+          <li class="mobile_nav_item">
+            <a href="#" class="mobile_nav_link">Contact</a>
+          </li>
+          <li class="mobile_nav_item">
+            <a href="#" class="mobile_nav_link">Sign up</a>
+          </li>
+          <li class="mobile_nav_item">
+            <a href="#" class="mobile_nav_link">Cart</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <!-- nav end  -->
     <!-- header start  -->
     <header class="header">
@@ -4977,7 +5017,76 @@
         </div>
       </div>
     </section>
-    <!-- services ens -->
+    <!-- services end -->
+    <!-- footer start  -->
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer-item">
+          <a href="#" class="footer_logo">Exclusive</a>
+          <p class="footer_p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+            labore odit iste!
+          </p>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer_item_title">Support</h3>
+          <ul>
+            <li class="footer_list">Dhaka,Bangladesh</li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">exclusive@gmail.com</a>
+            </li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">+88015-88888-9999</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer_item_title">Account</h3>
+          <ul>
+            <li class="footer_list">
+              <a href="#" class="footer_link">My Account</a>
+            </li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">Login / Register</a>
+            </li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">Cart</a>
+            </li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">Wishlist</a>
+            </li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">Shop</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer_item_title">Quick Link</h3>
+          <ul>
+            <li class="footer_list">
+              <a href="#" class="footer_link">Privacy Policy</a>
+            </li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">Terms Of Use</a>
+            </li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">FAQ</a>
+            </li>
+            <li class="footer_list">
+              <a href="#" class="footer_link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer_bottom_container">
+          <p class="copyright">
+            &copy;Copyright Exclusive 2024. All right reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
     <!-- swiper  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- custom js  -->

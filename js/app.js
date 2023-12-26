@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+var countDownDate = new Date("Jan 1, 2024 0:0:0").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -32,4 +32,46 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+});
+
+//animations
+
+ScrollReveal().reveal(".top_nav", {
+  origin: "bottom",
+  distance: "20px",
+  opacity: 0,
+});
+ScrollReveal().reveal(".nav", {
+  origin: "bottom",
+  distance: "20px",
+  opacity: 0,
+  delay: 100,
+});
+ScrollReveal().reveal(".header", {
+  origin: "bottom",
+  distance: "20px",
+  opacity: 0,
+  delay: 200,
+});
+ScrollReveal().reveal(".section", {
+  origin: "bottom",
+  distance: "20px",
+  opacity: 0,
+  duration: 1000,
+  delay: 200,
+});
+ScrollReveal().reveal(".footer", {
+  origin: "bottom",
+  distance: "20px",
+  opacity: 0,
+  duration: 1000,
+  delay: 200,
+});
+
+//mobile nav
+const hamburger = document.querySelector(".hamburger");
+const mobile_nav = document.querySelector(".mobile_nav");
+
+hamburger.addEventListener("click", () => {
+  mobile_nav.classList.toggle("mobile_nav_hide");
 });
