@@ -19,4 +19,13 @@
   .hamburger {
     display: block;
   }
+  .section_header,
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .section_header{
+    align-items: start;
+    gap: 1rem;
+  }
 }
