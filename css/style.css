@@ -315,3 +315,12 @@ ol {
   padding: 1rem 2rem;
   color: #fff;
 }
+
+/* //produtch */
+.products {
+  width: 100%;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  align-items: center;
+}
