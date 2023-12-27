@@ -582,16 +582,22 @@ ol {
   width: 100%;
   margin-top: 2rem;
   padding: 1rem 0.6rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #7d8184;
 }
 .form_btn {
   width: 100%;
   background: #db4444;
   margin: 2rem 0;
   padding: 1.5rem 0;
+  border: none;
   text-align: center;
   display: inline-block;
   border-radius: 0.5rem;
   color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
   text-transform: capitalize;
   transition: all 0.5s;
 }
