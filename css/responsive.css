@@ -24,8 +24,17 @@
     display: flex;
     flex-direction: column;
   }
-  .section_header{
+  .section_header {
     align-items: start;
     gap: 1rem;
+  }
+  .auth_img {
+    width: 0%;
+  }
+  .auth_img > img {
+    display: none;
+  }
+  .auth_content {
+    width: 100%;
   }
 }

@@ -307,6 +307,10 @@ ol {
   text-transform: capitalize;
   border-radius: 0.4rem;
   transition: all 0.5s ease;
+  /* button  */
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 .add_to_cart:hover {
   background-color: #db4444;
@@ -544,4 +548,60 @@ ol {
 .cart_total {
   margin-top: 2rem;
   text-align: right;
+}
+/* sing up pages  */
+.auth_conatiner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.auth_img {
+  width: 50%;
+  height: 100%;
+}
+.auth_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.auth_content {
+  width: 50%;
+  padding: 10rem;
+}
+.form_title {
+  font-size: 3.2rem;
+}
+.auth_p {
+  margin: 2rem 0rem;
+}
+.form_group {
+  width: 100%;
+}
+.form_input {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem 0.6rem;
+}
+.form_btn {
+  width: 100%;
+  background: #db4444;
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+.form_btn:hover {
+  background: #000;
+}
+.form_link {
+  color: #db4444;
+  transition: all 0.5s;
+}
+.form_link:hover {
+  text-decoration: underline;
 }

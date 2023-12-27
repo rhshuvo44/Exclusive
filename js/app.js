@@ -91,3 +91,21 @@ const mobile_nav = document.querySelector(".mobile_nav");
 hamburger.addEventListener("click", () => {
   mobile_nav.classList.toggle("mobile_nav_hide");
 });
+
+// add to cart
+
+
+const AddToCart = document.querySelectorAll(".add_to_cart");
+
+AddToCart.forEach((button) => {
+  button.addEventListener("click", () => {
+    const title = button.getAttribute("data-title");
+    const image = button.getAttribute("data-image");
+    const price = button.getAttribute("data-price");
+
+    const cartItem = { title, image, price, qun: 1 };
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    cart.push(cartItem);
+    localStorage.setItem("cart", JSON.stringify(cart));
+  });
+});

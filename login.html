@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Cart - Exclusive E-Commerce website</title>
+    <title>Login - Exclusive E-Commerce website</title>
   </head>
   <body>
     <!-- top nav start  -->
@@ -134,30 +134,38 @@
     </nav>
     <!-- nav end  -->
     <section class="section">
-      <div class="container">
-        <div class="cart">
-          <div class="cart_header">
-            <p class="cart_header_title">Product</p>
-            <p class="cart_header_img">Product Image</p>
-            <p class="cart_header_title">Price</p>
-            <p class="cart_header_title">Quentity</p>
-            <p class="cart_header_title">SubTotal</p>
-            <p class="cart_item_delete">Delete</p>
-          </div>
-          <div class="cart-items">
-            <div class="cart_item">
-              <p class="cart_item_title">HAVIT HV-G92 Gamepad</p>
-              <img src="./image/items/item-16.png" alt="" class="cart_img" />
-              <p class="cart_item_price">$120</p>
-              <input type="number" value="1" class="cart_item_qty" />
-              <p class="cart_item_subtotal">$120</p>
-              <p class="cart_item_delete">Delete</p>
+      <div class="auth_conatiner">
+        <div class="auto_img">
+          <img src="./image/auth-image.png" alt="" class="auth_image" />
+        </div>
+        <div class="auto_content">
+          <form action="" class="auth_form">
+            <h2 class="form_title">Create your account</h2>
+            <p class="auth_p">Enter details below</p>
+            <div class="form_group">
+              <input type="text" placeholder="Name" class="form_input" />
             </div>
-          </div>
+            <div class="form_group">
+              <input type="email" placeholder="Email" class="form_input" />
+            </div>
+            <div class="form_group">
+              <input
+                type="password"
+                placeholder="Password"
+                class="form_input"
+              />
+            </div>
 
-          <div class="cart_total">
-            <p class="cart-total_p">Total $2000</p>
-          </div>
+            <div class="form_group">
+              <a href="#" class="form_btn">Create Account</a>
+            </div>
+            <div class="form_group">
+              <span>
+                Allready have an account?
+                <a href="login.html" class="form_link">Lonin</a>
+              </span>
+            </div>
+          </form>
         </div>
       </div>
     </section>
@@ -232,6 +240,6 @@
     <!-- footer end -->
 
     <!-- custom js  -->
-    <script src="./js/cart.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
