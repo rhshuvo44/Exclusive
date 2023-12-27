@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <!-- swiper js  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- custom css  -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Login - Exclusive E-Commerce website</title>
+    <title>Home - Exclusive E-Commerce website</title>
   </head>
   <body>
     <!-- top nav start  -->
@@ -31,8 +35,8 @@
           <li class="nav_item">
             <a href="index.html" class="nav_link">Home</a>
           </li>
-          <li class="nav_item"><a href="about.html" class="nav_link">About</a></li>
-          <li class="nav_item"><a href="contact.html" class="nav_link">Contact</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
           <li class="nav_item">
             <a href="sign-up.html" class="nav_link">Sign up</a>
           </li>
@@ -118,10 +122,10 @@
             <a href="index.html" class="mobile_nav_link">Home</a>
           </li>
           <li class="mobile_nav_item">
-            <a href="about.html" class="mobile_nav_link">About</a>
+            <a href="#" class="mobile_nav_link">About</a>
           </li>
           <li class="mobile_nav_item">
-            <a href="contact.html" class="mobile_nav_link">Contact</a>
+            <a href="#" class="mobile_nav_link">Contact</a>
           </li>
           <li class="mobile_nav_item">
             <a href="sign-up.html" class="mobile_nav_link">Sign up</a>
@@ -133,40 +137,100 @@
       </div>
     </nav>
     <!-- nav end  -->
-    <section class="">
-      <div class="auth_conatiner">
-        <div class="auth_img">
-          <img src="./image/auth-image.png" alt="" class="auth_image" />
+
+    <!-- section start  -->
+    <section class="section">
+      <div class="container story_container">
+        <div class="story_content">
+          <h3 class="story_content_title">Our Story</h3>
+          <p class="story_p">
+            Launced in 2015, Exclusive is South Asia’s premier online shopping
+            makterplace with an active presense in Bangladesh. Supported by wide
+            range of tailored marketing, data and service solutions, Exclusive
+            has 10,500 sallers and 300 brands and serves 3 millioons customers
+            across the region.
+          </p>
+          <p class="story_p">
+            Exclusive has more than 1 Million products to offer, growing at a
+            very fast. Exclusive offers a diverse assotment in categories
+            ranging from consumer.
+          </p>
         </div>
-        <div class="auth_content">
-          <form action="" class="auth_form">
-            <h2 class="form_title">Login your account</h2>
-            <p class="auth_p">Enter details below</p>
-
-            <div class="form_group">
-              <input type="email" placeholder="Email" class="form_input" />
-            </div>
-            <div class="form_group">
-              <input
-                type="password"
-                placeholder="Password"
-                class="form_input"
-              />
-            </div>
-
-            <div class="form_group">
-              <input class="form_btn" type="submit" value="Login" />
-            </div>
-            <div class="form_group">
-              <span>
-                Don't have an account?
-                <a href="sign-up.html" class="form_link">Sign up</a>
-              </span>
-            </div>
-          </form>
+        <div class="story_image">
+          <img src="./image/about/about-slide.png" alt="" />
         </div>
       </div>
     </section>
+    <!-- section end  -->
+    <!-- services start -->
+    <section class="section">
+      <div class="container service_container">
+        <div class="service service_outline">
+          <img src="./image/icons/service-1.png" class="service_img" alt="" />
+          <h3 class="service_title">10.5k</h3>
+          <p class="service_p">Sallers active our site</p>
+        </div>
+        <div class="service service_outline">
+          <img src="./image/icons/service-2.png" class="service_img" alt="" />
+          <h3 class="service_title">45.5k</h3>
+          <p class="service_p">Customer active in our site</p>
+        </div>
+        <div class="service service_outline">
+          <img src="./image/icons/service-3.png" class="service_img" alt="" />
+          <h3 class="service_title">25k</h3>
+          <p class="service_p">Anual gross sale in our site</p>
+        </div>
+      </div>
+    </section>
+    <!-- services end -->
+    <!-- services start -->
+    <section class="section">
+      <div class="container team_container">
+        <div class="team">
+          <div class="team_img">
+            <img src="./image/team/1.png" class="team_img" alt="" />
+          </div>
+          <h3 class="team_title">Tom Cruise</h3>
+          <p class="team_p">Founder & Chairman</p>
+        </div>
+        <div class="team">
+          <div class="team_img">
+            <img src="./image/team/2.png" class="team_img" alt="" />
+          </div>
+          <h3 class="team_title">Emma Watson</h3>
+          <p class="team_p">Managing Director</p>
+        </div>
+        <div class="team">
+          <div class="team_img">
+            <img src="./image/team/3.png" class="team_img" alt="" />
+          </div>
+          <h3 class="team_title">Will Smith</h3>
+          <p class="team_p">Product Designer</p>
+        </div>
+      </div>
+    </section>
+    <!-- services end -->
+    <!-- services start -->
+    <section class="section">
+      <div class="container service_container">
+        <div class="service">
+          <img src="./image/icons/service-1.png" class="service_img" alt="" />
+          <h3 class="service_title">FREE AND FAST DELIVERY</h3>
+          <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="service">
+          <img src="./image/icons/service-2.png" class="service_img" alt="" />
+          <h3 class="service_title">24/7 CUSTOMER SERVICE</h3>
+          <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="service">
+          <img src="./image/icons/service-3.png" class="service_img" alt="" />
+          <h3 class="service_title">MONEY BACK GUARANTEE</h3>
+          <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </section>
+    <!-- services end -->
     <!-- footer start  -->
     <footer class="footer">
       <div class="container footer_container">
@@ -236,7 +300,8 @@
       </div>
     </footer>
     <!-- footer end -->
-
+    <!-- swiper  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- custom js  -->
     <script src="./js/app.js"></script>
   </body>
